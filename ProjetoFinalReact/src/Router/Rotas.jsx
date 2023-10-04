@@ -10,7 +10,7 @@ const Rotas = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<RotaTelaPrincipal />} />
-                    <Route path="/" element={<RotaLogin />} />
+                    <Route path="/login" element={<RotaLogin />} />
                 </Routes>
             </BrowserRouter>
         </>
